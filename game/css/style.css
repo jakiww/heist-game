@@ -1,0 +1,36 @@
+/* The Velvet Vault — page chrome around the canvas. The game
+   itself draws everything on the canvas, so this is only the dark
+   page background and the help line under the frame. */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0c0e16;
+  color: #e8ecf7;
+  font-family: sans-serif;
+}
+
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #2a2f3f;
+  border: 2px solid #4a4238;
+  border-radius: 6px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.55);
+  cursor: crosshair;
+}
+
+.hint {
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #9aa5c0;
+}
